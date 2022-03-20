@@ -1,0 +1,349 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #16151a !important;
+    
+}
+
+/* navbar */
+.button{
+    background-color:blue !important;
+    cursor: pointer;
+    color: white;
+}
+.button:hover{
+    color: white;
+}
+.navbar li:hover{
+    color: white !important;
+}
+
+/* navbar */
+
+.logo{
+    width: auto;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.btn-hero{
+    background-color: blue;
+    color: white;
+}
+.btn-hero:hover{
+    color: white;
+}
+
+/* project */
+
+.card-tran{
+    margin-top: -20px ;
+}
+.main h1{
+    margin-top: 20px;
+    font-size: 37px !important;
+    font-weight: 600;
+}
+.main a{
+    position: absolute;
+    right: 10%;
+    font-size: 23px; 
+    margin-top: -90px;  
+    text-decoration: none; 
+    color: white;
+}
+.main-pro{
+    margin-bottom: 40px;
+}
+
+.all-img img{
+    width: auto;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.allProject{
+    margin-top: 100px;
+}
+
+
+/*.................. project */
+
+
+
+
+
+
+/* skills */
+.skills a{
+    position: absolute;
+    right: 10%;   
+    margin-top: -50px;  
+    color: white;
+    font-size: 23px; 
+    text-decoration: none; 
+}
+img.skills_img{
+    margin: auto;
+    text-align: center;
+}
+
+/* skills */
+
+/* services */
+.services-card{
+    margin-bottom: 30px;
+}
+.ser  a{
+    position: absolute;
+    right: 10%;   
+    margin-top: -96px;  
+    color: white;
+    font-size: 23px; 
+    text-decoration: none; 
+}
+.service {
+    text-align: center;
+    margin-top: -20px;
+    padding: 25px 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s;
+  }
+  
+  .service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #303ef7;
+  }
+  
+  .service h2 {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: burlywood;
+  }
+  .service  {
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: white;
+  }
+  
+  
+  .service:hover {
+    background: #303ef7;
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  .service:hover i {
+    color: #fff;
+  }  
+  
+.ser-head{
+    border-bottom: 5px solid blue;
+    width: 20%;
+    margin-top: 5px !important;
+}
+/* services */
+
+/* skills */
+.skills img{
+height: 100px;
+width: auto;
+margin-bottom: 40px;
+
+}
+.skills-card{
+    margin-top: -15px;
+}
+/* skills */
+
+/* programming memes page */
+.prog-img{
+    margin-top: 100px;
+}
+.prog-img img{
+    
+    border: 3px solid gray;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 25vw;
+    object-fit: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+.prog-img img:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+
+/* contact page */
+.ma{
+    margin-bottom: 35px;
+}
+.ma img{
+    margin-top: 80px !important;
+}
+
+.contactImage{
+    width: 100%;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+.font-h1{
+    font-size: 35px;
+}
+.contactHead h2{
+    margin-top: 40px;
+    color: white;
+}
+.color-form{
+    background-color: #16151a;
+    color: white;
+    font-size: 20px;
+    border: black 2px solid;
+    border-radius: 20px;
+}
+.form-border{
+    border-radius: 20px;
+    border: rgb(44, 43, 43) 3px solid !important;
+}
+.color-form :hover{
+    background-color: #16151a;
+}
+.main-heading{
+    color: white;
+    margin-left: 10px;
+}
+.text-dec a{
+    text-decoration: none;
+}
+.text-dec a:hover{
+    color: rgb(21, 53, 100) !important;
+}
+.font-icon i{
+   color: white;
+}
+.font-icon i:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    color: rgb(168, 100, 10);
+}
+
+/* footer color */
+.page-footer{
+    background-color: rgb(51, 44, 44) !important;
+}
+.page-footer h1{
+    font-weight: 900;
+    margin-top: 10px!important;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.img img{
+    height: 100px;
+    width: auto;
+    margin-top: 80px !important;
+    display: inline-flex;
+    margin: 25px;
+}
+
+
+/* about us */
+.about_gif img{
+    width: 100% ;
+    object-fit: cover;
+    height: 300px ;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #000;
+    margin: 40px 0 60px 0;
+    font-weight: 300;
+}
+
+.our-team-main {
+    width: 100%;
+    height: auto;
+    border-bottom: 7px #8B0000 solid;
+    background: #fff;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+    margin-bottom: 28px
+}
+
+.our-team-main img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 90px
+}
+
+.our-team-main h3 {
+    font-size: 20px;
+    font-weight: 700
+}
+
+.our-team-main p {
+    margin-bottom: 0
+}
+
+.team-back {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 15px 0 15px;
+    text-align: left;
+    background: #fff
+}
+
+.team-front {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    background: #fff;
+    padding: 15px;
+    bottom: 0px;
+    transition: all 0.5s ease
+}
+
+.our-team-main:hover .team-front {
+    bottom: -200px;
+    transition: all 0.5s ease
+}
+
+.our-team-main:hover {
+    border-color: #FF0000;
+    transition: 0.5s
+}
+/* about us */
+
+
+.main img{
+    padding: 5px;
+    height:auto;
+    width:100%;
+    margin: 5px;
+    
+}
+
+.card-tran:hover{    
+    transform: scale(1.1);
+    transition: 0.9s;
+    cursor: pointer;
+}
+
